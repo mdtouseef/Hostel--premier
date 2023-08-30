@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>Hostel Premier League</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <h3 class="logo">HP<span>L</span>   </h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#Schedule">Schedule</a></li>
+            </ul>
+        </nav>
+        <div id="slider">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="photo_1.jpg" height="450" width="900">
+                        <div class="carousel-caption"><h5>Cricket</h5></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photo_2.jpg" height="450" width="900">
+                        <div class="carousel-caption"><h5>Football</h5></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photo_3.jpg" height="450" width="900">
+                        <div class="carousel-caption"><h5>Basket Ball</h5></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="photo_4.jpg" height="450" width="900">
+                        <div class="carousel-caption"><h5>Volley Ball</h5></div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <div class="about-content">
+                        Hola! GGS Indraprastha University Boys Hostel is Announcing HPL Season 9 starting from 27th March. They have so many sports like 
+                        -Cricket, 
+                        -Basketball, 
+                        -Football, 
+                        -Volleyball, 
+                        -Tug of War, 
+                        -chess, 
+                        -Badminton and 
+                        -Table Tennis.
+                        This sport is going back-to-back and one after another so stay tuned…   and excited to get update.
+                        The Winner are awarded with tremendous reward  So, gather your energy and get ready for hostel Premier League. 
+                        Be a participants and Enjoy the moment.
+
+                    </div>
+                    <!-- <button type="button" class="btn btn-primary"> Read More>></button> -->
+                </div>
+                <div class="col-md-6">
+                    <video autoplay controls loop src="HPL.mp4" height="300" width="600"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Schedule">
+        <div class="container">
+            <h1>Our Matches</h1>
+        </div>
+        <div class="sports">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                    CRICKET
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Match 1</a></li>
+                    <li><a class="dropdown-item" href="#">Match 2</a></li>
+                    <li><a class="dropdown-item" href="#">Match 3</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    FOOTBALL
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Match 1</a></li>
+                    <li><a class="dropdown-item" href="#">Match 2</a></li>
+                    <li><a class="dropdown-item" href="#">Match 3</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    BASKETBALL
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Match 1</a></li>
+                    <li><a class="dropdown-item" href="#">Match 2</a></li>
+                    <li><a class="dropdown-item" href="#">Match 3</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    VOLLEYBALL  
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Match 1</a></li>
+                    <li><a class="dropdown-item" href="#">Match 2</a></li>
+                    <li><a class="dropdown-item" href="#">Match 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="Phone no.">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email id">
+                        </div>
+                        <div class="form-group">
+                            <textarea class ="form-control" rows="10" placeholder="Your message"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                    
+                </div>
+                <div class="col-md-6 contact-info">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <sectio id="footer">
+        <div class="container">
+            <p>All Right Resserved @Mohd Touseef</p>
+        </div>
+    </sectio>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</html>

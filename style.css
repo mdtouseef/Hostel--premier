@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo {
+  color: white;
+  font-size: 35px;
+}
+span {
+  color: #8a0b0b;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+img {
+  margin: 0 185px;
+}
+.carousel-item {
+  filter: drop-shadow(10px 30px 100px rgb(0, 0, 0));
+}
+.carousel-caption h5 {
+  margin: 340px 0 ;
+  color: rgb(176, 224, 150);
+  font-size: 70px;
+}
+#about {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color: rgb(60, 20, 201);
+}
+/* #about h2::after{
+    content: "";
+    background: rgb(22, 138, 232);
+    display: block;
+    width: 100px;
+    height: 3px;
+     margin: 8px auto 5px; 
+} */
+.col-md-6 h2 {
+  box-shadow: -20px -20px 30px rgb(50, 81, 50);
+}
+.about-content {
+  background-color: rgb(229, 232, 146);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: 2px 2px 3px blue;
+}
+/* #about .btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+} */
+.about-content {
+  padding-top: 20px;
+}
+#Schedule {
+  background-color: rgb(240, 206, 206);
+  background-size: cover;
+  background-position: center;
+  color: rgb(106, 106, 155);
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#Schedule h1 {
+  text-align: center;
+}
+#Schedule h1::after {
+  content: "";
+  background: rgb(103, 181, 230);
+  display: block;
+  width: 221px;
+  height: 3px;
+  margin: 8px auto 5px;
+}
+.sports {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+}
+.sports .dropdown {
+  color: rgb(53, 37, 37);
+}
+#contact {
+  text-align: center;
+}
+#contact h1 ::after {
+  content: "";
+  background: black;
+  display: block;
+  width: 221px;
+  height: 3px;
+  margin: 8px auto 5px;
+}
+#contact {
+  background: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: blueviolet;
+  margin: 5px;
+}
+.contact-form {
+  padding: 15px;
+}
+.form-control {
+  border-radius: 0;
+  border: none;
+}
+::placeholder {
+  color: rgb(92, 92, 224);
+}
+.form-group {
+  padding: 12px;
+}
+#footer {
+  text-align: center;
+}
+
+@media(max-width:768px){
+  .hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(bg.jpg);
+    background-size: auto;
+    background-position: center;
+    /* background-attachment: fixed  ; */
+  }
+  #slider img {
+    margin: 0 150px;
+  }
+  .carousel-inner img{
+    width: 50%;
+    height: 120px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel-caption h5 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  video{
+    width: 100%;
+    height: 250px;
+  }
+  .sports button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+}
+
+@media(min-width:769px) and (max-width: 1024px){
+  .hero {
+    height: 130vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #slider img {
+    margin: 0 300px;
+    height: 200px;
+    width: 400px;
+  }
+  .carousel-inner img{
+    width: 50%;
+    height: 100px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel-caption h5 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  video{
+    width: 100%;
+    height: 250px;
+  }
+  .sports button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+}
